@@ -1,0 +1,172 @@
+@font-face {
+    font-family: ranmaFont;
+    src: url("fonts/YuseiMagic-Regular.ttf")
+}
+body{
+    margin: 0 25%;
+    background-image: url("images/SiteBackground.png");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+header {
+    margin: 30px;
+    border: #6e97fa solid 5px;
+    border-radius: 50px;
+    font: bold 25px/1.5 ranmaFont ;
+    background-color: #a53765;
+    padding : 5px;
+    text-align: center;
+}
+
+article{
+    font: 18px/1.5 ranmaFont ;
+    background-color: beige;
+    padding : 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+h2{
+    margin : 0;
+}
+h3{
+    margin : 0;
+}
+.Przywitanie{
+    font: bold 20px/1.5 ranmaFont ;
+    text-align: center;
+}
+nav {
+    display : flex;
+    background-color: #6e97fa;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font: normal bold 14px/1.5 ranmaFont ;
+}
+
+.link{
+    margin: 0;
+    padding: 10px;
+    background-color: #99f1db;
+    border: black solid 5px;
+    border-radius: 20px;
+}
+
+#SeriesPhoto{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #570030;
+    font : bold 20px/1.5 ranmaFont;
+    text-align: center;
+    color : yellowgreen;
+    border-radius : 10px;
+}
+
+.link:hover{
+    background-color: #72b5a1;
+    border: black solid 5px;
+}
+
+input{
+    border: #6e97fa solid 5px;
+    border-radius: 50px;
+    font: bold 20px/1.5 ranmaFont ;
+}
+input:hover{
+    background-color: #72b5a1;
+    border: black solid 5px;
+}
+select{
+    border: #6e97fa solid 5px;
+    border-radius: 50px;
+    font: bold 20px/1.5 ranmaFont ;
+}
+
+textarea{
+    border: #6e97fa solid 5px;
+    border-radius: 50px;
+    font: bold 20px/1.5 ranmaFont ;
+    padding: 5%;
+}
+
+label{
+    font : bold 20px/1.5 ranmaFont ;
+}
+
+.kontakt{
+    display: flex;
+    flex-direction : column;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction : column;
+    padding: 5%;
+}
+
+.Galeria{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    max-width: 100%;
+}
+.Galeria img{
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    display: block;
+    padding: 3%;
+}
+.Galeria video{
+    max-width: 100%;
+    width: 600px;
+    display: block;
+    padding: 5%;
+}
+
+#MangaCover{
+    display: block;
+    float: right;
+    width: 50%
+}
+.characters{
+    display: flex;
+    gap : 20px;
+    align-items: center;
+    flex-direction: column;
+}
+.buttons{
+    padding : 10px;
+    border: black solid 5px;
+    border-radius: 50px;
+    background-color: #99f1db;
+    margin: 5px;
+}
+.buttons:hover{
+    background-color: #72b5a1;
+    border: black solid 5px;
+}
+.button_container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.obrazy_do_zmieniania img {
+    max-width: 250px;
+    height: auto;
+}
+.obrazy_do_zmieniania{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
